@@ -1,0 +1,38 @@
+{
+  "name": "ds-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev",
+    "test": "jest --coverage --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdailly/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdailly/blog/issues"
+  },
+  "homepage": "https://github.com/sdailly/blog#readme",
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@vue/test-utils": "^1.0.0-beta.30",
+    "@vuepress/theme-blog": "^1.3.3",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "jest-serializer-vue": "^2.0.2",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "vue-jest": "^3.0.5",
+    "vuepress": "^1.2.0",
+    "yaml-front-matter": "^4.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
